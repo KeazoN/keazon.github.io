@@ -2,100 +2,222 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>KeazoN - Geleceğin Markası</title>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-body{
+	<title>KeazoN - Brand of the Future</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style>
+	body{
 	margin: 0;
 	padding: 0;
-	background-color: #333;
+	background-color: #222;
 }
 
-.profil{
+.baslik{
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	position: relative;
-	top: 1.5%;
+	line-height: 80px;
+	color: whitesmoke;
+	cursor: default;
+	text-shadow: 2px 2px darkolivegreen;
 }
 
-.profil img{
-	width: 15%;
+
+.ugur-profil img{
+	width: 25%;
 	height: auto;
-	border: 10px solid #552266;
-	animation: renkanim 15s infinite;
-	transition: all .3s;
+	border-radius: 15px;
+	position: relative;
+	top: 120px;
+	left: 10%;
+	  animation-duration: 10s;
+  animation-name: resimanimugur;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
 }
 
-@keyframes renkanim{
-	0%{
-		border: 10px solid #772211;
+@keyframes resimanimugur{
+	from{
+		transform: skewY(10deg);
 	}
-	25%{
-		border: 10px solid #885566;
-	}
-	50%{
-		border: 10px solid #995511;
-	}
-	75%{
-		border: 10px solid #224488;
-	}
-	95%{
-		border: 10px solid #775533;
+	to{
+		transform: skewY(-10deg);
 	}
 }
-.baslik h1{
-	font-family: 'Courgette', cursive;
-	color: #fff;
+
+.ugur-isim{
 	text-align: center;
-	text-shadow: 2px 2px #111;
-	line-height: 100px;
-}
-.special{
-	display: flex;
-	align-items: center;
-}
-.special h3{
-	font-family: 'Rubik', sans-serif;
-	font-size: 1.5em;
-	color:  ghostwhite;
-	text-shadow: 2px 2px black;
-	margin: auto;
-}
-.sm a{
-	font-family: 'Courgette' sans-serif;
-	text-decoration: none;
-	color: #fff;
-	font-weight: 700;
-	text-align: center;
-	padding: 27px 37px;
-	border: 3px solid lightgrey;
 	position: relative;
-	top: 240px;
-	left: 30%;
-	margin-left: 80px;
-	transition: all .3s;
+	bottom: 250px;
+	color: #fff;
+	font-family: 'Armata', sans-serif;
+	font-size: 1.2em;
+	text-shadow: 2px 1px seagreen;
+	cursor: default;
 }
-.sm a:hover{
-	background-color: dimgray;
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
 }
-	</style>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #4dff58;
+  border: 71px none #ffffff;
+  border-radius: 49px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #11d80e;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #0b9509;
+}
+::-webkit-scrollbar-track {
+  background: #222222;
+  border: 86px none #ffffff;
+  border-radius: 45px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #222222;
+}
+::-webkit-scrollbar-track:active {
+  background: #222222;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.harun-profil img{
+	width: 25%;
+	height: auto;
+	border-radius: 15px;
+	position: relative;
+	top: 120px;
+	left: 10%;
+	  animation-duration: 10s;
+  animation-name: resimanimharun;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes resimanimharun{
+	from{
+		transform: skewY(10deg);
+	}
+	to{
+		transform: skewY(-10deg);
+	}
+}
+
+.harun-isim{
+	text-align: center;
+	position: relative;
+	bottom: 250px;
+	color: #fff;
+	font-family: 'Armata', sans-serif;
+	font-size: 1.2em;
+	text-shadow: 2px 1px seagreen;
+	cursor: default;
+}
+
+.rikka-profil img{
+	width: 25%;
+	height: auto;
+	border-radius: 15px;
+	position: relative;
+	top: 120px;
+	left: 10%;
+	  animation-duration: 10s;
+  animation-name: resimanimrikka;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes resimanimrikka{
+	from{
+		transform: skewY(10deg);
+	}
+	to{
+		transform: skewY(-10deg);
+	}
+}
+
+
+.rikka-isim{
+	text-align: center;
+	position: relative;
+	bottom: 250px;
+	color: #fff;
+	font-family: 'Armata', sans-serif;
+	font-size: 1.2em;
+	text-shadow: 2px 1px seagreen;
+	cursor: default;
+}
+
+.ugur-bilgi{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	bottom: 200px;
+	cursor: default;
+}
+
+.ugur-bilgi h4{
+		font-size: 1em;
+}
+.ugur-bilgi i{
+	font-size: 1.2em;
+}
+</style>
 </head>
 <body>
-	<div class="profil">
-		<img src="https://cdn.discordapp.com/attachments/789410182609764363/790896684506939402/keazon.jpg">
+	<div class="baslik"><h1>KeazoN Team Owner</h1></div>
+	<div class="ugur-profil">
+		<img src="https://cdn.discordapp.com/avatars/540508804043767844/50180befc40cc854eae8e4b182d02425.png?size=1024">
+					<div class="ugur-isim">
+		<h2><i class="fas fa-user"></i>  Uğur Mercan</h2>
 	</div>
-	<div class="baslik">
-		<h1>Uğur Mercan - KeazoN</h1>
+	<div class="ugur-bilgi">
+			<h4><i class="fas fa-award"></i>  Certificate: <i class="fas fa-times" style="color: red;"></i></h4>
+			<h4><i class="fas fa-code"></i>  Software languages: <i class="fab fa-html5" style="color: orange;" title="HTML5"></i> | <i class="fab fa-css3-alt" title="CSS3" style="color: skyblue;"></i></h4>
+			<h4><i class="fas fa-stream"></i>  Age: <i style="color: seagreen;">15</i></h4>
+			<h4><i class="fas fa-business-time"></i>  Future Projects: <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">KEXN</a> | <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">FAVOR</a></h4>
+			<h4><i class="fas fa-language"></i>  Known Languages: <i style="color: seagreen;">Turkish</i><i style="color: skyblue;"> and</i><i style="color: yellowgreen;"> English</i></h4>
 	</div>
-	<div class="special">
-		<h3><i class="fa fa-code" style="color: #fff;"></i>   Web Developer</h3>
-		<h3><i class="fa fa-code" style="color: #fff;"></i>   Web Design</h3>
 	</div>
-	<div class="sm">
-		<a href="https://discord.gg/EC7CfC7nPj"><i class="fab fa-discord"></i>    Discord</a>
-		<a href="https://www.instagram.com/ugur_mrcn07"><i class="fab fa-instagram"></i>      İnstagram</a>
+		<div class="harun-profil">
+		<img src="https://cdn.discordapp.com/avatars/789389053752901683/45afea3df71f67c3ec2fff756ab000f4.png?size=1024">
+					<div class="harun-isim">
+		<h2><i class="fas fa-user"></i>  Harun Reşit Korkmaz</h2>
+	</div>
+	<div class="ugur-bilgi">
+			<h4><i class="fas fa-award"></i>  Certificate: <i class="fas fa-times" style="color: red;"></i></h4>
+			<h4><i class="fas fa-code"></i>  Software languages: <i class="fab fa-html5" style="color: orange;" title="HTML5"></i> | <i class="fab fa-css3-alt" title="CSS3" style="color: skyblue;"></i></h4>
+			<h4><i class="fas fa-stream"></i>  Age: <i style="color: seagreen;">15</i></h4>
+			<h4><i class="fas fa-business-time"></i>  Future Projects: <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">KEXN</a> | <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">FAVOR</a></h4>
+			<h4><i class="fas fa-language"></i>  Known Languages: <i style="color: seagreen;">Turkish</i><i style="color: skyblue;"> and</i><i style="color: yellowgreen;"> English</i></h4>
+	</div>
+	</div>
+		<div class="rikka-profil">
+		<img src="https://cdn.discordapp.com/avatars/254941976762253312/5d911055cae7bcf5717a8a232eb1ce2c.png?size=1024">
+					<div class="rikka-isim">
+		<h2><i class="fas fa-user"></i>  Mustafa Rikka</h2>
+	</div>
+	<div class="ugur-bilgi">
+			<h4><i class="fas fa-award"></i>  Certificate: <i class="fas fa-check" style="color: green;"></i></h4>
+			<h4><i class="fas fa-code"></i>  Software languages: <i class="fab fa-html5" style="color: orange;" title="HTML5"></i> | <i class="fab fa-css3-alt" title="CSS3" style="color: skyblue;"></i> | <i title="C#" style="color: purple;">C#</i></h4>
+			<h4><i class="fas fa-stream"></i>  Age: <i style="color: seagreen;">20</i></h4>
+			<h4><i class="fas fa-business-time"></i>  Future Projects: <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">KEXN</a> | <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">FAVOR</a></h4>
+			<h4><i class="fas fa-language"></i>  Known Languages: <i style="color: seagreen;">Turkish</i><i style="color: skyblue;"> and</i><i style="color: yellowgreen;"> English</i></h4>
+	</div>
 	</div>
 </body>
 </html>
