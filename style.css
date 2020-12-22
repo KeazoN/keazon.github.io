@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+
+.profil{
+	text-align: center;
+	position: relative;
+	top: 1.5%;
+}
+
+.profil img{
+	width: 15%;
+	height: auto;
+	border: 10px solid #552266;
+	animation: renkanim 15s infinite;
+	transition: all .3s;
+}
+
+@keyframes renkanim{
+	0%{
+		border: 10px solid #772211;
+	}
+	25%{
+		border: 10px solid #885566;
+	}
+	50%{
+		border: 10px solid #995511;
+	}
+	75%{
+		border: 10px solid #224488;
+	}
+	95%{
+		border: 10px solid #775533;
+	}
+}
+.baslik h1{
+	font-family: 'Courgette', cursive;
+	color: #fff;
+	text-align: center;
+	text-shadow: 2px 2px #111;
+	line-height: 100px;
+}
+.special{
+	display: flex;
+	align-items: center;
+}
+.special h3{
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5em;
+	color:  ghostwhite;
+	text-shadow: 2px 2px black;
+	margin: auto;
+}
+.sm a{
+	font-family: 'Courgette' sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	padding: 27px 37px;
+	border: 3px solid lightgrey;
+	position: relative;
+	top: 240px;
+	left: 30%;
+	margin-left: 80px;
+	transition: all .3s;
+}
+.sm a:hover{
+	background-color: dimgray;
+}
