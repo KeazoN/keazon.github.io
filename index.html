@@ -21,6 +21,7 @@
 	color: whitesmoke;
 	cursor: default;
 	text-shadow: 2px 2px darkolivegreen;
+	letter-spacing: 10px;
 }
 
 
@@ -35,7 +36,7 @@
   animation-name: resimanimugur;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-
+  box-shadow: 5px 5px #111;
 }
 
 @keyframes resimanimugur{
@@ -103,7 +104,7 @@
   animation-name: resimanimharun;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-
+    box-shadow: 5px 5px #111;
 }
 
 @keyframes resimanimharun{
@@ -137,7 +138,7 @@
   animation-name: resimanimrikka;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-
+  box-shadow: 5px 5px #111;
 }
 
 @keyframes resimanimrikka{
@@ -176,10 +177,81 @@
 .ugur-bilgi i{
 	font-size: 1.2em;
 }
+
+.harun-bilgi{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	bottom: 200px;
+	cursor: default;
+}
+
+.harun-bilgi h4{
+		font-size: 1em;
+}
+.harun-bilgi i{
+	font-size: 1.2em;
+}
+.rikka-bilgi{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	bottom: 200px;
+	cursor: default;
+}
+
+.rikka-bilgi h4{
+		font-size: 1em;
+}
+.rikka-bilgi i{
+	font-size: 1.2em;
+}
+
+@media screen and (max-width: 980px) {
+	.ugur-profil img{
+		position: relative;
+		left: 350px;
+	}
+	.ugur-isim{
+	    position: relative;
+	    top: 150px;
+}
+    .ugur-bilgi{
+    	position: relative;
+    	top: 150px;
+    }
+    	.harun-profil img{
+		position: relative;
+		top: 250px;
+		left: 350px;
+	}
+	.harun-bilgi{
+		top: 290px;
+	}
+	.rikka-bilgi{
+		top: 430px;
+	}
+	.harun-isim{
+	    position: relative;
+	    top: 290px;
+}
+	.rikka-profil img{
+		position: relative;
+		top: 390px;
+		left: 350px;
+	}
+	.rikka-isim{
+	    position: relative;
+	    top: 420px;
+}
+}
+
 </style>
 </head>
 <body>
-	<div class="baslik"><h1>KeazoN Team Owner</h1></div>
+	<div class="baslik"><h1>KeazoN Team Owners</h1></div>
 	<div class="ugur-profil">
 		<img src="https://cdn.discordapp.com/avatars/540508804043767844/50180befc40cc854eae8e4b182d02425.png?size=1024">
 					<div class="ugur-isim">
@@ -198,7 +270,7 @@
 					<div class="harun-isim">
 		<h2><i class="fas fa-user"></i>  Harun Reşit Korkmaz</h2>
 	</div>
-	<div class="ugur-bilgi">
+	<div class="harun-bilgi">
 			<h4><i class="fas fa-award"></i>  Certificate: <i class="fas fa-times" style="color: red;"></i></h4>
 			<h4><i class="fas fa-code"></i>  Software languages: <i class="fab fa-html5" style="color: orange;" title="HTML5"></i> | <i class="fab fa-css3-alt" title="CSS3" style="color: skyblue;"></i></h4>
 			<h4><i class="fas fa-stream"></i>  Age: <i style="color: seagreen;">15</i></h4>
@@ -209,9 +281,9 @@
 		<div class="rikka-profil">
 		<img src="https://cdn.discordapp.com/avatars/254941976762253312/5d911055cae7bcf5717a8a232eb1ce2c.png?size=1024">
 					<div class="rikka-isim">
-		<h2><i class="fas fa-user"></i>  Mustafa Rikka</h2>
+		<h2><i class="fas fa-user"></i>  Mustafa Zorlu</h2>
 	</div>
-	<div class="ugur-bilgi">
+	<div class="rikka-bilgi">
 			<h4><i class="fas fa-award"></i>  Certificate: <i class="fas fa-check" style="color: green;"></i></h4>
 			<h4><i class="fas fa-code"></i>  Software languages: <i class="fab fa-html5" style="color: orange;" title="HTML5"></i> | <i class="fab fa-css3-alt" title="CSS3" style="color: skyblue;"></i> | <i title="C#" style="color: purple;">C#</i></h4>
 			<h4><i class="fas fa-stream"></i>  Age: <i style="color: seagreen;">20</i></h4>
