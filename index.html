@@ -151,8 +151,52 @@
 	}
 }
 
-
 .rikka-isim{
+	text-align: center;
+	position: relative;
+	bottom: 250px;
+	color: #fff;
+	font-family: 'Armata', sans-serif;
+	font-size: 1.2em;
+	text-shadow: 2px 1px seagreen;
+	cursor: default;
+}
+
+.bulut-isim{
+	text-align: center;
+	position: relative;
+	bottom: 250px;
+	color: #fff;
+	font-family: 'Armata', sans-serif;
+	font-size: 1.2em;
+	text-shadow: 2px 1px seagreen;
+	cursor: default;
+}
+.bulut-profil img{
+	width: 25%;
+	height: auto;
+	border-radius: 15px;
+	position: relative;
+	top: 120px;
+	left: 10%;
+	  animation-duration: 10s;
+  animation-name: resimanimbulut;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  box-shadow: 5px 5px #111;
+}
+
+@keyframes resimanimbulut{
+	from{
+		transform: skewY(10deg);
+	}
+	to{
+		transform: skewY(-10deg);
+	}
+}
+
+
+.bulut-isim{
 	text-align: center;
 	position: relative;
 	bottom: 250px;
@@ -243,6 +287,22 @@
 	font-size: 1.2em;
 }
 
+.bulut-bilgi{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	bottom: 200px;
+	cursor: default;
+}
+
+.bulut-bilgi h4{
+		font-size: 1em;
+}
+.bulut-bilgi i{
+	font-size: 1.2em;
+}
+
 .yigit-bilgi{
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
@@ -286,6 +346,9 @@
 	.yigit-bilgi{
 		top: 580px;
 	}
+	.bulut-bilgi{
+		top: 750px;
+	}
 	.harun-isim{
 	    position: relative;
 	    top: 290px;
@@ -307,6 +370,15 @@
 	.yigit-isim{
 	    position: relative;
 	    top: 580px;
+}
+	.bulut-profil img{
+		position: relative;
+		top: 750px;
+		left: 350px;
+	}
+	.bulut-isim{
+	    position: relative;
+	    top: 750px;
 }
 }
 	.animasyon{
@@ -514,7 +586,7 @@ div.cssload-content {
 	top: 38%;
 }
 	
-
+	
 </style>
 </head>
 <body onLoad="keazonteam()">
@@ -526,7 +598,7 @@ div.cssload-content {
 	</div>
 </div>
 	<div class="animasyon" style="display: none;" id="animasyon">
-	<div class="baslik"><h1>KeazoN Team Owners</h1></div>
+	<div class="baslik"><h1>KeazoN Team</h1></div>
 	<div class="ugur-profil">
 		<img src="https://cdn.discordapp.com/avatars/540508804043767844/50180befc40cc854eae8e4b182d02425.png?size=1024">
 					<div class="ugur-isim">
@@ -577,6 +649,19 @@ div.cssload-content {
 			<h4><i class="fas fa-stream"></i>  Age: <i style="color: seagreen;">17</i></h4>
 			<h4><i class="fas fa-business-time"></i>  Future Projects: <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">KEXN</a> | <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">FAVOR</a></h4>
 			<h4><i class="fas fa-language"></i>  Known Languages: <i style="color: seagreen;">Turkish,</i><i style="color: lightseagreen;"> Deutsch,</i><i style="color: yellowgreen;"> English,</i><br><i style="color: greenyellow;"> Swedish</i><i style="color: skyblue;"> and</i><i style="color: mediumspringgreen;"> Azerbaijani</i></h4>
+	</div>
+	</div>
+				<div class="bulut-profil">
+		<img src="https://cdn.discordapp.com/avatars/316291217879072768/89d9618b14c275d7adf0855a30f44cb4.png?size=1024">
+					<div class="bulut-isim">
+		<h2><i class="fas fa-user"></i>  Bulut Güngören</h2>
+	</div>
+	<div class="bulut-bilgi">
+			<h4><i class="fas fa-award"></i>  Certificate: <i class="fas fa-times" style="color: red;"></i></h4>
+			<h4><i class="fas fa-code"></i>  Software languages: <i class="fab fa-js-square" style="color: yellow;" title="Javascript"></i> </h4>
+			<h4><i class="fas fa-stream"></i>  Age: <i style="color: seagreen;">17</i></h4>
+			<h4><i class="fas fa-business-time"></i>  Future Projects: <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">KEXN</a> | <a href="https://discord.gg/EC7CfC7nPj" style="color: white;">FAVOR</a></h4>
+			<h4><i class="fas fa-language"></i>  Known Languages: <i style="color: seagreen;">Turkish</i><i style="color: skyblue;"> and</i><i style="color: yellowgreen;"> English</i></h4>
 	</div>
 	</div>
 	</div>
